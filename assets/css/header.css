@@ -1,14 +1,32 @@
 .container {
     background: var(--cinza-fundo);
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: space-between;
+    padding: 1em 1em;
+    border-bottom: 7px solid var(--azul-principal);
+    position: relative;
 }
 
-.container__menu {
-    background-image: url(../imgs/);
+.cabecalho__menu__hamburguer {
+    display: inline-block;
+    background-image: url(../imgs/Menu\ Hamburguer.svg);
+    width: 46px;
+    height: 46px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-.container__logo {
-    margin: 0 4.5em;
+.container__botao {
+    display: none;
+}
+
+.menu__lista{
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+.container__botao:checked ~ .menu__lista {
+    display: block;
 }
