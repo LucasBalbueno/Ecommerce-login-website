@@ -1,0 +1,14 @@
+.container {
+    background: var(--cinza-fundo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__menu {
+    background-image: url(../imgs/);
+}
+
+.container__logo {
+    margin: 0 4.5em;
+}
