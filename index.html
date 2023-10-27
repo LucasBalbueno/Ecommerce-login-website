@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <header class="cabecalho">
+    <header>
         <div class="container">
             <input type="checkbox" id="menu" class="container__botao">
             <label for="menu" class="container__menu">
@@ -36,9 +36,22 @@
                 <a class="senha__link">Esqueci minha senha</a>
             </div>
             <div class="acesso__botoes">
-                <button class="botao__entrar">ENTRAR</button>
+                <button class="botao__principal">ENTRAR</button>
                 <button class="botao__entrar-google">ENTRAR COM O GOOGLE</button>
-            </div>
+
+                <div class="acesso__barra"></div>
+
+                <h1 class="acesso__title">Fazer Cadastro</h1>
+                <div class="acesso__form">
+                    <h2 class="form__title">Nome Completo</h2>
+                    <input type="text" class="form__info">
+                </div>
+                <div class="acesso__form">
+                    <h2 class="form__title">Email</h2>
+                    <input type="email" class="form__info">
+                    <p class="form__texto">É bom ter você aqui conosco!</p>
+                </div>
+                <button class="botao__cadastro">COMPLETAR CADASTRO</button>
         </div>
     </main>
 </body>
