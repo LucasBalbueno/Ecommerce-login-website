@@ -13,45 +13,52 @@
             <label for="menu" class="container__menu">
                 <span class="cabecalho__menu__hamburguer"></span>
             </label>
-            <ul class="menu__lista">
-                <li class="menu__item"><a class="menu__link-title" href="#">Início</a></li>
-                <li class="menu__item"><a class="menu__link" href="#">Produtos</a></li>
-                <li class="menu__item"><a class="menu__link" href="#">Marcas</a></li>
-                <li class="menu__item"><a class="menu__link" href="#">Rastreio</a></li>
-            </ul>
+            <nav>
+                <ul class="menu__lista">
+                    <li class="menu__item"><a class="menu__link-title" href="#">Início</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Produtos</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Marcas</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Rastreio</a></li>
+                </ul>
+            </nav>
             <img class="container__logo" src="./assets/imgs/Logo EcommerceCamp.svg" alt="Logo E-commerce Camp">
             <a class="container__busca"><img src="./assets/imgs/Lupa Branca.svg" alt="Pesquisa"></a>
         </div>
     </header>
     <main>
-        <div class="acesso__borda">
+        <div class="borda">
             <h1 class="acesso__title">Fazer Login</h1>
-            <div class="acesso__form">
-                <h2 class="form__title">Email</h2>
-                <input type="email" class="form__info">
-            </div>
-            <div class="acesso__form">
-                <h2 class="form__title">Senha</h2>
-                <input type="password" class="form__info">
-                <a class="senha__link">Esqueci minha senha</a>
-            </div>
-            <div class="acesso__botoes">
-                <button class="botao__principal">ENTRAR</button>
-                <button class="botao__entrar-google">ENTRAR COM O GOOGLE</button>
-
-                <div class="acesso__barra"></div>
-
-                <h1 class="acesso__title">Fazer Cadastro</h1>
+            <form class="Login">
                 <div class="acesso__form">
-                    <h2 class="form__title">Nome Completo</h2>
+                    <label class="form__title">Email</label>
+                    <input type="email" class="form__info">
+                </div>
+                <div class="acesso__form">
+                    <label class="form__title">Senha</label>
+                    <input type="password" class="form__info">
+                    <a class="senha__link" href="#">Esqueci minha senha</a>
+                </div>
+                <div class="acesso__botoes">
+                    <button type="submit" class="botao__principal">ENTRAR</button>
+                    <button type="submit" class="botao__entrar-google">ENTRAR COM O GOOGLE</button>
+                </div>
+            </form>
+
+            <div class="acesso__barra"></div>
+
+            <h1 class="acesso__title">Fazer Cadastro</h1>
+            <form class="Cadastro">
+                <div class="acesso__form">
+                    <label class="form__title">Nome Completo</label>
                     <input type="text" class="form__info">
                 </div>
                 <div class="acesso__form">
-                    <h2 class="form__title">Email</h2>
+                    <label class="form__title">Email</label>
                     <input type="email" class="form__info">
                     <p class="form__texto">É bom ter você aqui conosco!</p>
                 </div>
-                <button class="botao__cadastro">COMPLETAR CADASTRO</button>
+                <button type="submit" class="botao__cadastro">COMPLETAR CADASTRO</button>
+            </form>
         </div>
     </main>
 </body>
