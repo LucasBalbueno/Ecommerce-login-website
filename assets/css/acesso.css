@@ -34,7 +34,7 @@
 .senha__link{
     font-size: 12px;
     font-weight: 400;
-    text-decoration-line: underline;
+    text-decoration: none;
 }
 
 .acesso__botoes{
@@ -53,6 +53,10 @@
     font-weight: 600;
     margin-bottom: 1em;
     color: var(--cinza-fundo);
+}
+
+.botao__principal:hover, .botao__cadastro:hover, .botao__entrar-google:hover{
+    background-color: var(--hover-botao);
 }
 
 .botao__entrar-google {

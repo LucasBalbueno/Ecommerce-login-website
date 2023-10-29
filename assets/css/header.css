@@ -43,14 +43,18 @@
     padding: 1em 0 1em 1.5em;
 }
 
-.menu__link-title {
+.menu__item:hover {
+    background: var(--azul-principal);
+}
+
+.menu__link-inicio {
     text-decoration: none;
-    color: var(--azul-principal);
+    color: var(--cinza-fundo);
     font-weight: 700;
 }
 
 .menu__link {
-    text-decoration: none;
     color: var(--cinza-fundo);
+    text-decoration: none;
     text-transform: uppercase;
 }
