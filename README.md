@@ -7,7 +7,7 @@ Além disso, o projeto possui grande responsividade para a maior diversidade de 
 
 ## Instruções
 
-Acesse o link do GitHub Pages:
+Acesse o link do GitHub Pages: https://lucasbalbueno.github.io/Tela_Login/
 
 Use o Dev Tool (CTRL + SHIFT + C) do seu navegador para alterar as dimensões da tela e conseguir navegar pelos detalhes da aplicação.
 
