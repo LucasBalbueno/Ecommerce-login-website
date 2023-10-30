@@ -63,6 +63,10 @@
     display: none;
 }
 
+.barra_pesquisa {
+    display: none;
+}
+
 @media screen and (min-width: 1024px) {
     .menu__lista{
         display: flex;
@@ -94,7 +98,6 @@
 
 @media screen and (min-width: 1728px) {
     .menu__logo {
-        width: 12em;
         margin: 1em 0 1em 7em;
     }
 
@@ -103,7 +106,7 @@
     }
 
     .menu__link {
-        font-size: 24px;
+        font-size: 20px;
         margin: 0 1em;
     }
 
@@ -112,10 +115,11 @@
     }
 
     .barra_pesquisa{
+        display: block;
         background: var(--branco-fundo);
         opacity: 0.9;
         border: none;
-        width: 23em;
+        width: 30em;
         height: 3.5em;
         padding: 0 2em;
         border-radius: 45px;
@@ -126,7 +130,7 @@
         background-image: url(../imgs/Lupa\ Preta.svg);
         padding: 1em 0;
         background-repeat: no-repeat;
-        background-position: 16em;
+        background-position: 22em;
         background-size: 30px;
     }
 }
