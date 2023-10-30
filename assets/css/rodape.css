@@ -7,7 +7,6 @@
 
 .lista__item {
     margin: 0.4em 0;
-
 }
 
 .lista__link {
@@ -28,4 +27,36 @@
     color: var(--cinza-rodape);
     font-size: 10px;
     font-weight: 500;
+}
+
+@media screen and (min-width: 1024px) {
+    .rodape__lista{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 10em;
+        margin-top: 1em;
+        justify-content: center;
+    }
+
+    .lista__item {
+        margin: 1em 1.5em;
+    }
+
+    .lista__link{
+        font-size: 16px;
+    }
+
+    .pagamentos__image{
+        width: 17em;
+    }
+
+    .rodape__pagamentos{
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .rodape__texto{
+        font-size: 15px;
+        margin-top: 2em;
+    }
 }
