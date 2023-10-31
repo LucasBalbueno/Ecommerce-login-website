@@ -1,94 +1,91 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fazer Login E-commerce</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
-    <header>
-        <div class="container">
-            <input type="checkbox" id="menu" class="container__botao">
-            <label for="menu" class="container__menu">
-                <span class="cabecalho__menu__hamburguer"></span>
-            </label>
-            <ul class="menu__lista_hamburguer">
-                <li class="menu__item"><a class="menu__link-inicio" href="#">Início</a></li>
-                <li class="menu__item"><a class="menu__link" href="#">Produtos</a></li>
-                <li class="menu__item"><a class="menu__link" href="#">Marcas</a></li>
-                <li class="menu__item"><a class="menu__link" href="#">Rastreio</a></li>
-            </ul>
-            <img class="menu__logo" src="./assets/imgs/Logo Ecommerce.svg" alt="Logo E-commerce Camp">
-            <input class="barra_pesquisa" type="search" placeholder="Qual produto você busca?">
-            <ul class="menu__lista">
-                <li class="menu__item"><a class="menu__link" href="#">Início</a></li>
-                <li class="menu__item"><a class="menu__link" href="#">Produtos</a></li>
-                <li class="menu__item"><a class="menu__link" href="#">Marcas</a></li>
-                <li class="menu__item"><a class="menu__link" href="#">Rastreio</a></li>
-            </ul>
-            <a class="container__busca"><img src="./assets/imgs/Lupa Branca.svg" alt="Pesquisa"></a>
-        </div>
+    <header class="container">
+        <input type="checkbox" id="menu" class="container__botao">
+        <label for="menu" class="container__menu">
+            <span class="cabecalho__menu__hamburguer"></span>
+        </label>
+        <ul class="menu__lista_hamburguer">
+            <li class="menu__item"><a class="menu__link-inicio" href="#">Início</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Produtos</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Marcas</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Rastreio</a></li>
+        </ul>
+        <img class="menu__logo" src="./assets/imgs/Logo Ecommerce.svg" alt="Logo E-commerce Camp">
+        <input class="barra_pesquisa" type="search" placeholder="Qual produto você busca?">
+        <ul class="menu__lista">
+            <li class="menu__item"><a class="menu__link" href="#">Início</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Produtos</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Marcas</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Rastreio</a></li>
+        </ul>
+        <a class="container__busca"><img src="./assets/imgs/Lupa Branca.svg" alt="Pesquisa"></a>
     </header>
-    <main>
-        <div class="borda">
-            <div class="acesso">
-                <h1 class="acesso__title">Fazer Login</h1>
-                <form class="Login">
-                    <div class="acesso__form">
-                        <label class="form__title">Email</label>
-                        <input type="email" class="form__info">
-                    </div>
-                    <div class="acesso__form">
-                        <label class="form__title">Senha</label>
-                        <input type="password" class="form__info">
-                        <a class="senha__link" href="#">Esqueci minha senha</a>
-                    </div>
-                    <div class="acesso__botoes">
-                        <button type="submit" class="botao__principal">ENTRAR</button>
-                        <button type="submit" class="botao__entrar-google">ENTRAR COM O GOOGLE</button>
-                    </div>
-                </form>
-            </div>
+    <main class="borda">
+        <div class="acesso">
+            <h1 class="acesso__title">Fazer Login</h1>
+            <form class="Login">
+                <div class="acesso__form">
+                    <label class="form__title">Email</label>
+                    <input type="email" class="form__info" required>
+                </div>
+                <div class="acesso__form">
+                    <label class="form__title">Senha</label>
+                    <input type="password" class="form__info" required>
+                    <a class="senha__link" href="#">Esqueci minha senha</a>
+                </div>
+                <div class="acesso__botoes">
+                    <button type="submit" class="botao__principal">ENTRAR</button>
+                    <button type="submit" class="botao__entrar-google">ENTRAR COM O GOOGLE</button>
+                </div>
+            </form>
+        </div>
 
-            <div class="acesso__barra"></div>
+        <div class="acesso__barra"></div>
 
-            <div class="acesso">
-                <h1 class="acesso__title">Fazer Cadastro</h1>
-                <form class="Cadastro">
-                    <div class="acesso__form">
-                        <label class="form__title">Nome Completo</label>
-                        <input type="text" class="form__info">
-                    </div>
-                    <div class="acesso__form">
-                        <label class="form__title">Email</label>
-                        <input type="email" class="form__info">
-                        <p class="form__texto">É bom ter você aqui conosco!</p>
-                    </div>
-                    <button type="submit" class="botao__cadastro">COMPLETAR CADASTRO</button>
-                </form>
-            </div>
+        <div class="acesso">
+            <h1 class="acesso__title">Fazer Cadastro</h1>
+            <form class="Cadastro">
+                <div class="acesso__form">
+                    <label class="form__title">Nome Completo</label>
+                    <input type="text" class="form__info" required>
+                </div>
+                <div class="acesso__form">
+                    <label class="form__title">Email</label>
+                    <input type="email" class="form__info" required>
+                    <p class="form__texto">É bom ter você aqui conosco!</p>
+                </div>
+                <button type="submit" class="botao__cadastro">COMPLETAR CADASTRO</button>
+            </form>
         </div>
     </main>
-    <footer>
-        <div class="rodape__container">
-            <div class="rodape__logo">
-                <img class="menu__logo" src="./assets/imgs/Logo Ecommerce.svg" alt="Logo Ecommerce Camp">
-            </div>
-            <ul class="rodape__lista">
-                <li class="lista__item"><a class="lista__link">SOBRE NÓS</a></li>
-                <li class="lista__item"><a class="lista__link">SUPORTE</a></li>
-                <li class="lista__item"><a class="lista__link">DÚVIDAS</a></li>
-                <li class="lista__item"><a class="lista__link">POLÍTICAS DE ENVIO</a></li>
-                <li class="lista__item"><a class="lista__link">POLÍTICAS DE DEVOLUÇÃO</a></li>
-                <li class="lista__item"><a class="lista__link">FAÇA PARTE DA EQUIPE</a></li>
-            </ul>
-            <div class="rodape__pagamentos">
-                <img class="pagamentos__image" src="./assets/imgs/Pagamentos1.svg" alt="Métodos de pagamento">
-                <img class="pagamentos__image" src="./assets/imgs/Pagamentos2.svg" alt="Métodos de pagamento"> 
-            </div>
-            <p class="rodape__texto">E-commerce camp 2023. Todos os direitos reservados.</p>
+    <footer class="rodape__container">
+        <div class="rodape__logo">
+            <img class="menu__logo" src="./assets/imgs/Logo Ecommerce.svg" alt="Logo Ecommerce Camp">
         </div>
+        <ul class="rodape__lista">
+            <li class="lista__item"><a class="lista__link" href="#">SOBRE NÓS</a></li>
+            <li class="lista__item"><a class="lista__link" href="#">SUPORTE</a></li>
+            <li class="lista__item"><a class="lista__link" href="#">DÚVIDAS</a></li>
+            <li class="lista__item"><a class="lista__link" href="#">POLÍTICAS DE ENVIO</a></li>
+            <li class="lista__item"><a class="lista__link" href="#">POLÍTICAS DE DEVOLUÇÃO</a></li>
+            <li class="lista__item"><a class="lista__link" href="#">FAÇA PARTE DA EQUIPE</a></li>
+        </ul>
+        <div class="rodape__pagamentos">
+            <img class="pagamentos__image" src="./assets/imgs/Pagamentos1.svg" alt="Métodos de pagamento">
+            <img class="pagamentos__image" src="./assets/imgs/Pagamentos2.svg" alt="Métodos de pagamento">
+        </div>
+        <p class="rodape__texto">E-commerce camp 2023. Todos os direitos reservados.</p>
     </footer>
 </body>
+
 </html>
