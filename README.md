@@ -1,7 +1,29 @@
-# Tela_Login
+# Ecommerce-login-website 🇺🇸
 
-Nesse projeto pude criar o design e 
-desenvolver uma página de login para um e-commerce. Apliquei algumas técnicias para também criar o header e o footer assim como um Menu-Hamburguer para dispositivos Mobile.
+In this project I created a design and developed a login page for a e-commerce. I apllied some techniques for create header and footer with Menu-Hamburguer for mobile devices.
+
+the project is responsive for the main screens: Mobile (428px), Tablets (1024px) and Desktop (1728px).
+
+## Instructions
+
+Visit the link on GitHub Pages: https://lucasbalbueno.github.io/Tela_Login/
+
+use your browser's Dev Tool (CTRL + SHIFT + C) to change the screen dimensions and be able to navigate through the application details.
+
+__Observations:__ The buttons and links are clickable, but do not redirect to another page. It's important to know that the project was developed using HTML and CSS only, so the page will not have a login and registration validations.
+
+## Tools
+
+1. VS Code Studio with Live Server extension;
+2. Browser's Dev Tool;
+3. GitHub for version control;
+4. Figma for design development.
+
+<br/>
+
+# Tela-Login-Ecommerce 🇧🇷
+
+Nesse projeto pude criar o design e desenvolver uma página de login para um e-commerce. Apliquei algumas técnicias para também criar o header e o footer assim como um Menu-Hamburguer para dispositivos Mobile.
 
 Além disso, o projeto possui grande responsividade para a maior diversidade de telas, sendo as principais: Mobile (428px), Tablets (1024px) e Desktop (1728px).
 
