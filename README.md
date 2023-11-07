@@ -6,7 +6,7 @@ the project is responsive for the main screens: Mobile (428px), Tablets (1024px)
 
 ## Instructions
 
-Visit the link on GitHub Pages: https://lucasbalbueno.github.io/Tela_Login/
+Visit the link on GitHub Pages: https://lucasbalbueno.github.io/Ecommerce-login-website/
 
 use your browser's Dev Tool (CTRL + SHIFT + C) to change the screen dimensions and be able to navigate through the application details.
 
@@ -29,7 +29,7 @@ Além disso, o projeto possui grande responsividade para a maior diversidade de 
 
 ## Instruções
 
-Acesse o link do GitHub Pages: https://lucasbalbueno.github.io/Tela_Login/
+Acesse o link do GitHub Pages: https://lucasbalbueno.github.io/Ecommerce-login-website/
 
 Use o Dev Tool (CTRL + SHIFT + C) do seu navegador para alterar as dimensões da tela e conseguir navegar pelos detalhes da aplicação.
 
